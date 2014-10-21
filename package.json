@@ -5,9 +5,7 @@
   "author": "Jonathan Raoult",
   "license": "MIT",
   "private": true,
-  "bin": {
-    "npm": "./src/main/lib/cli.js"
-  },
+  "bin": "./src/main/lib/cli.js",
   "engines": {
     "node": ">= 0.10.0"
   },

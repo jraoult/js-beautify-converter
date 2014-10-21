@@ -1,5 +1,6 @@
 {
   "name": "js-beautify-converter",
+  "version": "1.1.0-alpha1",
   "main": "./src/main/lib/beautify-converter",
   "author": "Jonathan Raoult",
   "license": "MIT",

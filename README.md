@@ -1,9 +1,7 @@
-## js-beautify-converter
+# js-beautify-converter
 A command line tool to convert a [JS Beautifier](https://github.com/beautify-web/js-beautify) code style to an IntelliJ formater configuration file.
 
 ## Getting Started
-==
-
 #### Install `js-beautify-converter` globally:
 `js-beautify-converter` has to be installed globally to install the command. The globaly installed command will look for a local installation to execute.
 

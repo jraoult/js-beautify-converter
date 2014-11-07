@@ -21,7 +21,7 @@ By default it looks for a file named `.jsbeautifyrc` and generates `.idea/codeSt
 js-beautify-converter the-code-style.json my-intellij-cs-file.xml
 ```
  
-### Supported JS Beautifier options:
+## Supported JS Beautifier options:
 I try to support as many options as possible whne it makes sense. Some options don't have an equivalence in IntelliJ.
 
 * `indent_size`
@@ -32,7 +32,7 @@ I try to support as many options as possible whne it makes sense. Some options d
 * `space_after_anon_function`
 * `wrap_line_length`
 
-### Supported IntelliJ versions
+## Supported IntelliJ versions
 So far, I tested `js-beautify-converter` with:
 * IntelliJ IDEA 13
 * IntelliJ IDEA 14

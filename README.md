@@ -1,17 +1,17 @@
-# js-beautify-converter
+## js-beautify-converter
 A command line tool to convert a [JS Beautifier](https://github.com/beautify-web/js-beautify) code style to an IntelliJ formater configuration file.
 
-## Getting Started
+### Getting Started
 
-### Install `js-beautify-converter` globally:
+#### Install `js-beautify-converter` globally:
 `js-beautify-converter` has to be installed globally to install the command. The globaly installed command will look for a local installation to execute.
 
 `npm install -g git+ssh://git@github.com:jraoult/js-beautify-converter.git`
 
-### Install `js-beautify-converter`  in your project devDependencies:
+#### Install `js-beautify-converter`  in your project devDependencies:
 `npm install git+ssh://git@github.com:jraoult/js-beautify-converter.git`
 
-### Run `js-beautify-converter`
+#### Run `js-beautify-converter`
 IntelliJ IDEA closed and from the project root, run:
 ```
 js-beautify-converter
@@ -22,7 +22,7 @@ By default it looks for a file named `.jsbeautifyrc` and generates `.idea/codeSt
 js-beautify-converter the-code-style.json my-intellij-cs-file.xml
 ```
  
-## Supported JS Beautifier options:
+### Supported JS Beautifier options:
 I try to support as many options as possible whne it makes sense. Some options don't have an equivalence in IntelliJ.
 
 * `indent_size`
@@ -33,7 +33,7 @@ I try to support as many options as possible whne it makes sense. Some options d
 * `space_after_anon_function`
 * `wrap_line_length`
 
-## Supported IntelliJ versions
+### Supported IntelliJ versions
 So far, I tested `js-beautify-converter` with:
 * IntelliJ IDEA 13
 * IntelliJ IDEA 14
